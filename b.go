@@ -1,5 +1,8 @@
 package main
 
-func testb() {
-	print("test b\n")
+import _ "github.com/levyjeng/godemo/fmt"
+
+func init() {
+	//print("this is in b.init function")
 }
+

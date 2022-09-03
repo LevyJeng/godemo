@@ -1,14 +1,9 @@
 package main
 
-import (
-	ft "fmt"
-	myfmt "github.com/levyjeng/godemo/fmt"
-	helper "github.com/levyjeng/godemohelper"
-)
+func init() {
+	//print("a.init")
+}
 
-func main() {
-	myfmt.Test_inner()
-	myfmt.Main()
-	helper.Help()
-	ft.Printf("9")
+func fa() {
+
 }

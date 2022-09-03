@@ -1,6 +1,11 @@
 package mai
 
-func Test_inner() {
+import _ "github.com/levyjeng/godemo/kk"
+
+func init() {
+	print("test.init\n")
+}
+func Abc() {
 	print("Test_inner\n")
 }
 func main() {
